@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2030-08-22T19:21:56Z" cacheDuration="PT604800S" entityID="https://prodmssamltrial.azurewebsites.net">
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICojCCAgugAwIBAgIBADANBgkqhkiG9w0BAQ0FADBuMQswCQYDVQQGEwJ1czETMBEGA1UECAwKQ2FsaWZvcm5pYTEwMC4GA1UECgwnQ2FsaWZvcm5pYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uMRgwFgYDVQQDDA9Qcm9ETVNTYW1sVHJpYWwwHhcNMjAwODIwMTkyMTMzWhcNMzAwODE4MTkyMTMzWjBuMQswCQYDVQQGEwJ1czETMBEGA1UECAwKQ2FsaWZvcm5pYTEwMC4GA1UECgwnQ2FsaWZvcm5pYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uMRgwFgYDVQQDDA9Qcm9ETVNTYW1sVHJpYWwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMzfeI3mz5qZ20TSDcWZQs+cObe+q1ssNaTT+xhZeGhVIjoNGbXyT8Fbj0WMnSyXlZel3PQgqi3TvwOhdyw3VIa7OeLthkWKiqp+bjw10uA38t3CMCiPjZI4UEJ3q7RYeubBXadwAUt3libf+HzxR3sQDUvLD1sBOX/PQ7FiWYJfAgMBAAGjUDBOMB0GA1UdDgQWBBRP0hYRIDWcSSKXgVVD38bdEtMbHzAfBgNVHSMEGDAWgBRP0hYRIDWcSSKXgVVD38bdEtMbHzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBDQUAA4GBAL3QpdZEwl92Lo+UQaivfCdyjeH3VDtryhQ3xYdv927jZKl26MyZU4V2nTDrTe6haX1ghZVjc28jN7ufYaaXe8EyfOZ8jGfY9Ngai3f/LT07p8J8rf2utDhk2naqB6fdqwhSu9MC6XbVFhW38d5lpAVoiB4XBDfeOmLJUXsrDHBi</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICojCCAgugAwIBAgIBADANBgkqhkiG9w0BAQ0FADBuMQswCQYDVQQGEwJ1czETMBEGA1UECAwKQ2FsaWZvcm5pYTEwMC4GA1UECgwnQ2FsaWZvcm5pYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uMRgwFgYDVQQDDA9Qcm9ETVNTYW1sVHJpYWwwHhcNMjAwODIwMTkyMTMzWhcNMzAwODE4MTkyMTMzWjBuMQswCQYDVQQGEwJ1czETMBEGA1UECAwKQ2FsaWZvcm5pYTEwMC4GA1UECgwnQ2FsaWZvcm5pYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uMRgwFgYDVQQDDA9Qcm9ETVNTYW1sVHJpYWwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMzfeI3mz5qZ20TSDcWZQs+cObe+q1ssNaTT+xhZeGhVIjoNGbXyT8Fbj0WMnSyXlZel3PQgqi3TvwOhdyw3VIa7OeLthkWKiqp+bjw10uA38t3CMCiPjZI4UEJ3q7RYeubBXadwAUt3libf+HzxR3sQDUvLD1sBOX/PQ7FiWYJfAgMBAAGjUDBOMB0GA1UdDgQWBBRP0hYRIDWcSSKXgVVD38bdEtMbHzAfBgNVHSMEGDAWgBRP0hYRIDWcSSKXgVVD38bdEtMbHzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBDQUAA4GBAL3QpdZEwl92Lo+UQaivfCdyjeH3VDtryhQ3xYdv927jZKl26MyZU4V2nTDrTe6haX1ghZVjc28jN7ufYaaXe8EyfOZ8jGfY9Ngai3f/LT07p8J8rf2utDhk2naqB6fdqwhSu9MC6XbVFhW38d5lpAVoiB4XBDfeOmLJUXsrDHBi</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://prodmssamltrial.azurewebsites.net/Saml2/SingleLogoutService"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://prodmssamltrial.azurewebsites.net/Saml2/AssertionConsumerService" index="1"/>
+  </md:SPSSODescriptor>
+</md:EntityDescriptor>

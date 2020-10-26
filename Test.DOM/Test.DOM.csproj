@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200410001309_initial.cs" />
+    <Compile Remove="Migrations\20200410001309_initial.Designer.cs" />
+    <Compile Remove="Migrations\20200410035148_initial2.cs" />
+    <Compile Remove="Migrations\20200410035148_initial2.Designer.cs" />
+    <Compile Remove="Migrations\20200812214205_test.cs" />
+    <Compile Remove="Migrations\20200812214205_test.Designer.cs" />
+    <Compile Remove="Migrations\20200824220732_idTrial.cs" />
+    <Compile Remove="Migrations\20200824220732_idTrial.Designer.cs" />
+    <Compile Remove="Migrations\20200824223729_idTrial.cs" />
+    <Compile Remove="Migrations\20200824223729_idTrial.Designer.cs" />
+    <Compile Remove="Migrations\20200824224251_idTrial.cs" />
+    <Compile Remove="Migrations\20200824224251_idTrial.Designer.cs" />
+    <Compile Remove="Migrations\20200824224946_idTrial.cs" />
+    <Compile Remove="Migrations\20200824224946_idTrial.Designer.cs" />
+    <Compile Remove="Migrations\20200824225525_idTrial.cs" />
+    <Compile Remove="Migrations\20200824225525_idTrial.Designer.cs" />
+    <Compile Remove="Migrations\20200824225906_idTrial.cs" />
+    <Compile Remove="Migrations\20200824225906_idTrial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
